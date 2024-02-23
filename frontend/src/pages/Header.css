@@ -1,0 +1,93 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px; 
+    transition: 0.5s;
+    z-index: 10000;
+}
+
+
+header.scrolled {
+    background: rgba(0, 0, 0, 0.6);
+    border-bottom: 2px solid var(--primary);
+    border-image: linear-gradient(90deg, transparent, var(--primary), transparent) 30;
+    backdrop-filter: blur(20px);
+    padding: 10px 20px; 
+}
+
+.logo {
+    font-family: 'Rancing Sans One', cursive;
+    font-size: 25px; 
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 15px; 
+}
+
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.signin {
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-size: 14px; 
+    cursor: pointer;
+    text-decoration: none;
+    background-color: var(--primary);
+    padding: 8px 15px; 
+    border-radius: 5px; 
+}
+
+.menu-icon {
+    display: none; 
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 15px 10px; 
+    }
+
+    .logo {
+        font-size: 22px; 
+    }
+
+    .nav {
+        display: none; 
+        flex-direction: column; 
+        align-items: flex-end; 
+        position: absolute;
+        top: 65px;
+        right: 10px; 
+        background: rgba(0, 0, 0, 0.6);
+        padding: 10px;
+        border-radius: 5px;
+        width: 150px;
+    }
+
+    .nav-item {
+        margin: 8px 0; /* Adjusted margin for better spacing on smaller screens */
+    }
+
+    .menu-icon {
+        display: block; /* Show on smaller screens */
+    }
+}
