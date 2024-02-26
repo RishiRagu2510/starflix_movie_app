@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Stack from '@mui/material/Stack';
 import { useLocation, useParams } from "react-router-dom";
-import { Box, Card, CardActionArea, CardContent, CardMedia, Divider, Typography } from "@mui/material";
+import { Alert, Box, Card, CardActionArea, CardContent, CardMedia, Divider, Typography } from "@mui/material";
 import Backdrop from '@mui/material/Backdrop';
 import SpeedDial from '@mui/material/SpeedDial';
 import SpeedDialIcon from '@mui/material/SpeedDialIcon';
@@ -10,6 +10,8 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import CommentIcon from '@mui/icons-material/Comment';
 import Paper from '@mui/material/Paper';
 
+import Snackbar from '@mui/material/Snackbar';
+
 function Details() {
     let { id } = useParams();
     const [movie, setMovie] = useState(null);
@@ -17,6 +19,17 @@ function Details() {
     const [open, setOpen] = React.useState(false); // Define open state
     const handleOpen = () => setOpen(true); // Define handleOpen function
     const handleClose = () => setOpen(false); // Define handleClose function
+
+    const [openSnackbar, setOpenSnackbar] = React.useState(false); // Define open state for Snackbar
+    const handleClick1 = () => {
+      setOpenSnackbar(true);
+    };
+    const handleCloseSnackbar = (event, reason) => {
+      if (reason === 'clickaway') {
+        return;
+      }
+      setOpenSnackbar(false);
+    };
 
     useEffect(() => {
         // Your useEffect logic
@@ -32,7 +45,7 @@ function Details() {
     const actions = [
         
         { icon: <CommentIcon/>, name: 'Comment' },
-        { icon: <FavoriteIcon />, name: 'Favorite' },
+        { icon: <FavoriteIcon onClick={handleClick1}/>, name: 'Favorite' },
    
     ];
 
@@ -44,6 +57,7 @@ function Details() {
                         <CardMedia component="img" image={bg} sx={{ width: '100%', objectFit: 'cover' }} />
                     </CardActionArea>
                 </Card>
+               
                 <Box height={300} width={750} alignItems="center" style={{ marginLeft: '40px', marginTop: '10px' }}>
                     <Typography sx={{ color: 'purple', textDecoration: "uppercase", fontWeight: "bold" }} variant="h4">
                         {title}
@@ -54,7 +68,7 @@ function Details() {
                         {des}
                         <br></br>
                     </Typography>
-
+                    
                     {trailer && (
                         <div>
                             <iframe
@@ -104,11 +118,31 @@ function Details() {
             icon={action.icon}
             tooltipTitle={action.name}
             tooltipOpen
-            onClick={handleClose}
+            onClick={() => {
+                action.onClick && action.onClick();
+                handleClose();
+            }}
         />
     ))}
 </SpeedDial>
+
+      
                 </Box>
+                <Snackbar
+                    open={openSnackbar}
+                    autoHideDuration={1000}
+                    onClose={handleCloseSnackbar}
+                    anchorOrigin={{ vertical: 'top', horizontal: 'right' }} // Position Snackbar at top right
+                >
+                    <Alert
+                        onClose={handleCloseSnackbar}
+                        severity="success"
+                        variant="filled"
+                        sx={{ width: '100%' }}
+                    >
+                        Added to favorites!
+                    </Alert>
+                </Snackbar>
             </div>
         </div>
     );
