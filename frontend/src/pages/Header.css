@@ -11,7 +11,6 @@ header {
     z-index: 10000;
 }
 
-
 header.scrolled {
     background: rgba(0, 0, 0, 0.6);
     border-bottom: 2px solid var(--primary);
@@ -34,20 +33,10 @@ header.scrolled {
     display: flex;
 }
 
-.nav-item {
-    margin-right: 15px; 
-}
-
-.nav a {
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: 600;
-}
-
 .signin {
     color: #ffffff;
     letter-spacing: 2px;
-    font-weight: 800;
+    font-weight: 600;
     font-size: 14px; 
     cursor: pointer;
     text-decoration: none;
@@ -73,7 +62,7 @@ header.scrolled {
     .nav {
         display: none; 
         flex-direction: column; 
-        align-items: flex-end; 
+        align-items: center; /* Align items in the center */
         position: absolute;
         top: 65px;
         right: 10px; 
@@ -91,3 +80,9 @@ header.scrolled {
         display: block; /* Show on smaller screens */
     }
 }
+
+.starflix-text {
+    color: white;
+    font-size: 24px; /* Adjust the font size as needed */
+  }
+  

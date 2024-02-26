@@ -8,7 +8,7 @@ const navListData=[
     {
         _id:2,
         link:'#watchlist',
-        name:'watchlist',
+        name:'movielist',
         active:false,
     },
     {

@@ -8,7 +8,6 @@ function Main(){
         <main>
             <Schedule/>
             <Trend/>
-
         </main>
     );
 }

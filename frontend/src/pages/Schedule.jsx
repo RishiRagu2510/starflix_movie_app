@@ -79,7 +79,7 @@ function Schedule(){
         <section id="watchlist" className="schedule">
             <div className="container-fluid">
                 <div className="row">
-                    <h4 className="section-title">Watchlist</h4>
+                    <h4 className="section-title">MOVIE LIST</h4>
                 </div>
                 <div className="row">
 

@@ -14,14 +14,14 @@ function MovieContent({movie}){
         <p>
           {movie.description}
           </p>
-          <div className="button">
+          {/* <div className="button">
             <Button icon={ <ion-icon name="bookmark-outline"></ion-icon>}
             name='Book'
             color='purple'
             bgColor='#ffffff'
             />
             <Button icon={<ion-icon name="add-outline"></ion-icon>} name="My List"/>
-          </div>
+          </div> */}
       </div>
     );
 }

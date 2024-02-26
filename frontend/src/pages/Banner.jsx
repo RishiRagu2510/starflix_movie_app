@@ -43,7 +43,7 @@ function Banner(){
               </div>
               <div className="col-lg-6 col-md-12">
                 <MovieData movie={movie}/>
-                <PlayBtn movie={movie}/>
+                {/* <PlayBtn movie={movie}/> */}
               </div>
             </div>
           </div>
