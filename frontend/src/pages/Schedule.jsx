@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Card from "../components/Card";
 import './schedule.css';
+import Search from "../components/Search";
 
 function Schedule(){
     const filterList=[
@@ -95,7 +96,7 @@ function Schedule(){
                                     ))
                                  }
                             </ul>
-
+                                    
                 </div>
                 <div className="row mt-5">
                     {movies &&  movies.length>0 &&

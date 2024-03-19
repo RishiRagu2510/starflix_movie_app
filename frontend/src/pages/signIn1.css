@@ -1,11 +1,23 @@
 /* CSS code */
+/* body{
+  background-image: url("C:\Users\RISHI\OneDrive\Desktop\backup\starflix\movie_app\src\images\s.jpg");
+
+} */
+.back {
+  background-image: url('../images/s.jpg'); /* Assuming 's.jpg' is in the 'images' folder within your project */
+  background-size: cover;
+  background-position: center;
+}
+
 .background {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 430px;
+   
     height: 520px;
+    background-color: #000000;
   }
   
   .background .shape {

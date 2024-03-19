@@ -12,7 +12,7 @@ function MovieContent({movie}){
         <span>{movie.category}</span>
         </h4>
         <p>
-          {movie.description}
+          {/* {movie.description} */}
           </p>
           {/* <div className="button">
             <Button icon={ <ion-icon name="bookmark-outline"></ion-icon>}
