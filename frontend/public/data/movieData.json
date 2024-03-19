@@ -35,11 +35,11 @@
     "type": "coming",
     "description": "A research team encounters multiple threats while exploring the depths of the ocean, including a malevolent mining operation.",
     "active": false,
-    "Img1":"../asserts/movies/a1.jpg",
-    "Img2":"../asserts/movies/a2.jpg",
-    "Img3":"../asserts/movies/a3.jpg",
-    "Img4":"../asserts/movies/a4.jpg",
-    "Img5":"../asserts/movies/a5.jpg"
+    "Img1":"../asserts/movies/b1.jpg",
+    "Img2":"../asserts/movies/b2.jpg",
+    "Img3":"../asserts/movies/b3.jpg",
+    "Img4":"../asserts/movies/b4.jpg",
+    "Img5":"../asserts/movies/b5.jpg"
   },
   {
     "_id": 3,
@@ -56,11 +56,11 @@
     "type": "coming",
     "description": "Brian O'Conner, an LAPD officer, goes undercover in the street racing world to investigate a group of unknown truck hijackers, believed to be led by Dominic Toretto.",
     "active": false,
-    "Img1":"../asserts/movies/a1.jpg",
-    "Img2":"../asserts/movies/a2.jpg",
-    "Img3":"../asserts/movies/a3.jpg",
-    "Img4":"../asserts/movies/a4.jpg",
-    "Img5":"../asserts/movies/a5.jpg"
+    "Img1":"../asserts/movies/c1.jpg",
+    "Img2":"../asserts/movies/c2.jpg",
+    "Img3":"../asserts/movies/c3.jpg",
+    "Img4":"../asserts/movies/c4.jpg",
+    "Img5":"../asserts/movies/c5.jpg"
   },
   {
     "_id": 4,
@@ -77,11 +77,11 @@
     "type": "coming",
     "description": "An ancient struggle between two Cybertronian races, the heroic Autobots and the evil Decepticons, comes to Earth, with a clue to the ultimate power held by a teenager.",
     "active":false,
-    "Img1":"../asserts/movies/a1.jpg",
-    "Img2":"../asserts/movies/a2.jpg",
-    "Img3":"../asserts/movies/a3.jpg",
-    "Img4":"../asserts/movies/a4.jpg",
-    "Img5":"../asserts/movies/a5.jpg"
+    "Img1":"../asserts/movies/d1.jpg",
+    "Img2":"../asserts/movies/d2.jpg",
+    "Img3":"../asserts/movies/d3.jpg",
+    "Img4":"../asserts/movies/d4.jpg",
+    "Img5":"../asserts/movies/d5.jpg"
   },
   {
     "_id": 5,
@@ -98,11 +98,11 @@
     "type": "coming",
     "description": "Beautiful Disaster is a 2023 American romantic drama film directed by Roger Kumble and co-written by Kumble and Jamie McGuire, based on McGuire's 2011 new adult novel of the same name.",
     "active": false,
-    "Img1":"../asserts/movies/a1.jpg",
-    "Img2":"../asserts/movies/a2.jpg",
-    "Img3":"../asserts/movies/a3.jpg",
-    "Img4":"../asserts/movies/a4.jpg",
-    "Img5":"../asserts/movies/a5.jpg"
+    "Img1":"../asserts/movies/e1.jpg",
+    "Img2":"../asserts/movies/e2.jpg",
+    "Img3":"../asserts/movies/e3.jpg",
+    "Img4":"../asserts/movies/e4.jpg",
+    "Img5":"../asserts/movies/e5.jpg"
   },
   {
     "_id": 6,
@@ -119,11 +119,11 @@
     "type": "coming",
     "description": "A reboot film series commenced in 2011 with Rise of the Planet of the Apes, which was followed by Dawn of the Planet of the Apes in 2014 and War for the Planet of the Apes in 2017.",
     "active": false,
-    "Img1":"../asserts/movies/a1.jpg",
-    "Img2":"../asserts/movies/a2.jpg",
-    "Img3":"../asserts/movies/a3.jpg",
-    "Img4":"../asserts/movies/a4.jpg",
-    "Img5":"../asserts/movies/a5.jpg"
+    "Img1":"../asserts/movies/f1.jpg",
+    "Img2":"../asserts/movies/f2.jpg",
+    "Img3":"../asserts/movies/f3.jpg",
+    "Img4":"../asserts/movies/f4.jpg",
+    "Img5":"../asserts/movies/f5.jpg"
   },
   {
     "_id": 7,
@@ -140,11 +140,11 @@
     "type": "coming",
     "description": "A private military operation, led by Valmora, invents futuristic microchip tech that enables the mind of an agent to inhabit the body of another person to carry out covert, deadly missions.",
     "active": false,
-    "Img1":"../asserts/movies/a1.jpg",
-    "Img2":"../asserts/movies/a2.jpg",
-    "Img3":"../asserts/movies/a3.jpg",
-    "Img4":"../asserts/movies/a4.jpg",
-    "Img5":"../asserts/movies/a5.jpg"
+    "Img1":"../asserts/movies/g1.jpg",
+    "Img2":"../asserts/movies/g2.jpg",
+    "Img3":"../asserts/movies/g3.jpg",
+    "Img4":"../asserts/movies/g4.jpg",
+    "Img5":"../asserts/movies/g5.jpg"
   },
   {
     "_id": 8,
@@ -161,11 +161,11 @@
     "type": "coming",
     "description": "No Hard Feelings is a 2023 American sex comedy film starring Jennifer Lawrence as a woman who is hired by a wealthy couple to romance their inexperienced son, played by Andrew Barth Feldman. ",
     "active": false,
-    "Img1":"../asserts/movies/a1.jpg",
-    "Img2":"../asserts/movies/a2.jpg",
-    "Img3":"../asserts/movies/a3.jpg",
-    "Img4":"../asserts/movies/a4.jpg",
-    "Img5":"../asserts/movies/a5.jpg"
+    "Img1":"../asserts/movies/h1.jpg",
+    "Img2":"../asserts/movies/h2.jpg",
+    "Img3":"../asserts/movies/h3.jpg",
+    "Img4":"../asserts/movies/h4.jpg",
+    "Img5":"../asserts/movies/h5.jpg"
   },
   {
     "_id": 9,
@@ -182,11 +182,11 @@
     "type": "coming",
     "description": "the timeless tale of a young girl who, defying her parents' wishes to attend boarding school, travels with her two younger brothers to the magical Neverland.",
     "active": false,
-    "Img1":"../asserts/movies/a1.jpg",
-    "Img2":"../asserts/movies/a2.jpg",
-    "Img3":"../asserts/movies/a3.jpg",
-    "Img4":"../asserts/movies/a4.jpg",
-    "Img5":"../asserts/movies/a5.jpg"
+    "Img1":"../asserts/movies/i1.jpg",
+    "Img2":"../asserts/movies/i2.jpg",
+    "Img3":"../asserts/movies/i3.jpg",
+    "Img4":"../asserts/movies/i4.jpg",
+    "Img5":"../asserts/movies/i5.jpg"
   },
   {
     "_id": 10,
@@ -203,18 +203,18 @@
     "type": "coming",
     "description": "Its plot follows an international intelligence operative who must embark on a dangerous mission to protect a mysterious artificial intelligence system known as The Heart.",
     "active": false,
-    "Img1":"../asserts/movies/a1.jpg",
-    "Img2":"../asserts/movies/a2.jpg",
-    "Img3":"../asserts/movies/a3.jpg",
-    "Img4":"../asserts/movies/a4.jpg",
-    "Img5":"../asserts/movies/a5.jpg"
+    "Img1":"../asserts/movies/j1.jpg",
+    "Img2":"../asserts/movies/j2.jpg",
+    "Img3":"../asserts/movies/j3.jpg",
+    "Img4":"../asserts/movies/j4.jpg",
+    "Img5":"../asserts/movies/j5.jpg"
   },
   {
     "_id": 11,
     "titleImg": "../asserts/movies/the-little-mermaid-title.png",
     "bgImg": "../asserts/movies/bg-little-mermaid.jpg",
     "previewImg": "../asserts/movies/the-little-mermaid.jpeg",
-    "video":"https://www.youtube.com/embed/oyfc0-KqfR0?rel=0",
+    "video":"https://www.youtube.com/embed/oyfc0-KqfR0?rel=0.",
     "title": "THE LITTLE MERMAID ",
     "year": "2023",
     "date": "27th September",
@@ -224,11 +224,11 @@
     "type": "schedule",
     "description": "The youngest of King Triton's daughters, and the most defiant, Ariel longs to find out more about the world beyond the sea, and while visiting the surface, falls for the dashing Prince Eric",
     "active": false,
-    "Img1":"../asserts/movies/a1.jpg",
-    "Img2":"../asserts/movies/a2.jpg",
-    "Img3":"../asserts/movies/a3.jpg",
-    "Img4":"../asserts/movies/a4.jpg",
-    "Img5":"../asserts/movies/a5.jpg"
+    "Img1":"../asserts/movies/k1.jpg",
+    "Img2":"../asserts/movies/k2.jpg",
+    "Img3":"../asserts/movies/k3.jpg",
+    "Img4":"../asserts/movies/k4.jpg",
+    "Img5":"../asserts/movies/k5.jpg"
   },
   {
     "_id": 12,
@@ -245,11 +245,11 @@
     "type": "schedule",
     "description": "Driver stars as a space pilot who crashes on an unknown planet and attempts to escape while surviving with a young girl, played by Ariana Greenblatt.",
     "active": false,
-    "Img1":"../asserts/movies/a1.jpg",
-    "Img2":"../asserts/movies/a2.jpg",
-    "Img3":"../asserts/movies/a3.jpg",
-    "Img4":"../asserts/movies/a4.jpg",
-    "Img5":"../asserts/movies/a5.jpg"
+    "Img1":"../asserts/movies/l1.jpg",
+    "Img2":"../asserts/movies/l2.jpg",
+    "Img3":"../asserts/movies/l3.jpg",
+    "Img4":"../asserts/movies/l4.jpg",
+    "Img5":"../asserts/movies/l5.jpg"
   },
   {
     "_id": 13,
@@ -266,11 +266,11 @@
     "type": "schedule",
     "description": "Stranded on a crumbling rig in Baja, a family faces off against a vengeful megalodon shark. Stranded on a crumbling rig in Baja, a family faces off against a vengeful megalodon shark.",
     "active": false,
-    "Img1":"../asserts/movies/a1.jpg",
-    "Img2":"../asserts/movies/a2.jpg",
-    "Img3":"../asserts/movies/a3.jpg",
-    "Img4":"../asserts/movies/a4.jpg",
-    "Img5":"../asserts/movies/a5.jpg"
+    "Img1":"../asserts/movies/m1.jpg",
+    "Img2":"../asserts/movies/m2.jpg",
+    "Img3":"../asserts/movies/m3.jpg",
+    "Img4":"../asserts/movies/m4.jpg",
+    "Img5":"../asserts/movies/m5.jpg"
   },
   {
     "_id": 14,
@@ -287,11 +287,11 @@
     "type": "schedule",
     "description": "After mysteriously inheriting an abandoned coastal property, Ben and his family accidentally unleash an ancient, long-dormant creature that terrorized the entire region-including his own ancestors-for generations.",
     "active": false,
-    "Img1":"../asserts/movies/a1.jpg",
-    "Img2":"../asserts/movies/a2.jpg",
-    "Img3":"../asserts/movies/a3.jpg",
-    "Img4":"../asserts/movies/a4.jpg",
-    "Img5":"../asserts/movies/a5.jpg"
+    "Img1":"../asserts/movies/n1.jpg",
+    "Img2":"../asserts/movies/n2.jpg",
+    "Img3":"../asserts/movies/n3.jpg",
+    "Img4":"../asserts/movies/n4.jpg",
+    "Img5":"../asserts/movies/n5.jpg"
   },
   {
     "_id": 15,
@@ -308,11 +308,11 @@
     "type": "schedule",
     "description": "The Covenant is not based on a true story but is inspired by the collective experiences of interpreters and soldiers in the war in Afghanistan. Jake Gyllenhaal's character, John Kinley, is not a real person but is instead inspired by real sergeants who worked with interpreters.",
     "active": false,
-    "Img1":"../asserts/movies/a1.jpg",
-    "Img2":"../asserts/movies/a2.jpg",
-    "Img3":"../asserts/movies/a3.jpg",
-    "Img4":"../asserts/movies/a4.jpg",
-    "Img5":"../asserts/movies/a5.jpg"
+    "Img1":"../asserts/movies/o1.jpg",
+    "Img2":"../asserts/movies/o2.jpg",
+    "Img3":"../asserts/movies/o3.jpg",
+    "Img4":"../asserts/movies/o4.jpg",
+    "Img5":"../asserts/movies/o5.jpg"
   }
 ]
 
